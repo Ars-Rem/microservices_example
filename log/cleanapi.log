@@ -1,0 +1,76 @@
+2021-08-28 15:46:05,690 - [INFO] - 200 GET / (127.0.0.1) 188.02ms
+2021-08-28 15:46:05,795 - [WARNING] - 404 GET /favicon.ico (127.0.0.1) 0.00ms
+2021-08-28 15:48:22,683 - [INFO] - 304 GET / (127.0.0.1) 188.01ms
+2021-08-28 15:48:33,761 - [INFO] - 304 GET / (127.0.0.1) 0.00ms
+2021-08-28 15:48:34,853 - [INFO] - 304 GET / (127.0.0.1) 1.00ms
+2021-08-28 15:48:36,296 - [INFO] - 304 GET / (127.0.0.1) 2.00ms
+2021-08-28 15:48:54,328 - [INFO] - 304 GET / (127.0.0.1) 1.00ms
+2021-08-28 15:49:05,445 - [INFO] - 200 GET / (127.0.0.1) 191.00ms
+2021-08-28 15:49:06,256 - [INFO] - 304 GET / (127.0.0.1) 0.00ms
+2021-08-28 15:49:06,946 - [INFO] - 304 GET / (127.0.0.1) 1.00ms
+2021-08-28 15:49:37,348 - [INFO] - 200 GET / (127.0.0.1) 186.02ms
+2021-08-28 15:50:45,348 - [WARNING] - 404 GET / (127.0.0.1) 0.00ms
+2021-08-28 15:51:18,082 - [WARNING] - 404 GET / (127.0.0.1) 1.00ms
+2021-08-28 15:51:51,420 - [ERROR] - Uncaught exception
+Traceback (most recent call last):
+  File "C:\Users\Ars\Documents\GitHub\microservices_example\venv\lib\site-packages\tornado\http1connection.py", line 273, in _read_message
+    delegate.finish()
+  File "C:\Users\Ars\Documents\GitHub\microservices_example\venv\lib\site-packages\tornado\routing.py", line 268, in finish
+    self.delegate.finish()
+  File "C:\Users\Ars\Documents\GitHub\microservices_example\venv\lib\site-packages\tornado\httpserver.py", line 280, in finish
+    self.request_callback(self.request)
+TypeError: Handler() takes no arguments
+2021-08-28 15:51:51,427 - [ERROR] - Uncaught exception
+Traceback (most recent call last):
+  File "C:\Users\Ars\Documents\GitHub\microservices_example\venv\lib\site-packages\tornado\http1connection.py", line 273, in _read_message
+    delegate.finish()
+  File "C:\Users\Ars\Documents\GitHub\microservices_example\venv\lib\site-packages\tornado\routing.py", line 268, in finish
+    self.delegate.finish()
+  File "C:\Users\Ars\Documents\GitHub\microservices_example\venv\lib\site-packages\tornado\httpserver.py", line 280, in finish
+    self.request_callback(self.request)
+TypeError: Handler() takes no arguments
+2021-08-28 15:51:51,433 - [ERROR] - Uncaught exception
+Traceback (most recent call last):
+  File "C:\Users\Ars\Documents\GitHub\microservices_example\venv\lib\site-packages\tornado\http1connection.py", line 273, in _read_message
+    delegate.finish()
+  File "C:\Users\Ars\Documents\GitHub\microservices_example\venv\lib\site-packages\tornado\routing.py", line 268, in finish
+    self.delegate.finish()
+  File "C:\Users\Ars\Documents\GitHub\microservices_example\venv\lib\site-packages\tornado\httpserver.py", line 280, in finish
+    self.request_callback(self.request)
+TypeError: Handler() takes no arguments
+2021-08-28 15:51:52,501 - [ERROR] - Uncaught exception
+Traceback (most recent call last):
+  File "C:\Users\Ars\Documents\GitHub\microservices_example\venv\lib\site-packages\tornado\http1connection.py", line 273, in _read_message
+    delegate.finish()
+  File "C:\Users\Ars\Documents\GitHub\microservices_example\venv\lib\site-packages\tornado\routing.py", line 268, in finish
+    self.delegate.finish()
+  File "C:\Users\Ars\Documents\GitHub\microservices_example\venv\lib\site-packages\tornado\httpserver.py", line 280, in finish
+    self.request_callback(self.request)
+TypeError: Handler() takes no arguments
+2021-08-28 15:51:52,505 - [ERROR] - Uncaught exception
+Traceback (most recent call last):
+  File "C:\Users\Ars\Documents\GitHub\microservices_example\venv\lib\site-packages\tornado\http1connection.py", line 273, in _read_message
+    delegate.finish()
+  File "C:\Users\Ars\Documents\GitHub\microservices_example\venv\lib\site-packages\tornado\routing.py", line 268, in finish
+    self.delegate.finish()
+  File "C:\Users\Ars\Documents\GitHub\microservices_example\venv\lib\site-packages\tornado\httpserver.py", line 280, in finish
+    self.request_callback(self.request)
+TypeError: Handler() takes no arguments
+2021-08-28 15:51:52,508 - [ERROR] - Uncaught exception
+Traceback (most recent call last):
+  File "C:\Users\Ars\Documents\GitHub\microservices_example\venv\lib\site-packages\tornado\http1connection.py", line 273, in _read_message
+    delegate.finish()
+  File "C:\Users\Ars\Documents\GitHub\microservices_example\venv\lib\site-packages\tornado\routing.py", line 268, in finish
+    self.delegate.finish()
+  File "C:\Users\Ars\Documents\GitHub\microservices_example\venv\lib\site-packages\tornado\httpserver.py", line 280, in finish
+    self.request_callback(self.request)
+TypeError: Handler() takes no arguments
+2021-08-28 15:51:58,844 - [INFO] - 200 GET / (::1) 215.06ms
+2021-08-28 15:51:58,939 - [WARNING] - 404 GET /favicon.ico (::1) 1.00ms
+2021-08-28 15:54:21,984 - [INFO] - 301 GET /e (::1) 0.00ms
+2021-08-28 15:54:22,000 - [WARNING] - 403 GET /e/ (::1): \ is not in root static directory
+2021-08-28 15:54:22,001 - [WARNING] - 403 GET /e/ (::1) 1.00ms
+2021-08-28 15:54:28,373 - [WARNING] - 404 GET / (::1) 1.00ms
+2021-08-28 15:54:32,828 - [WARNING] - 404 GET / (::1) 1.01ms
+2021-08-28 15:54:33,579 - [WARNING] - 404 GET / (::1) 1.02ms
+2021-08-28 15:54:34,227 - [WARNING] - 404 GET / (::1) 0.00ms
